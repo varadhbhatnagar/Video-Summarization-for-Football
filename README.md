@@ -1,4 +1,4 @@
-# Video-Summarization-for-Football
+# Video Summarization for Football
 Undergrad Major Project. Video to video summary of full length Football match.
 
 # Introduction
