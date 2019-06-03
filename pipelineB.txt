@@ -1,0 +1,11 @@
+cd audio_module
+python soundtest.py
+cd ..
+python yc_module.py Video/2_HQ.mkv Frames/frames.txt
+cd object_detection_model
+cd object_detection
+python object_detection_tutorial.py
+cd ..
+cd ..
+python return_output.py
+python concat.py

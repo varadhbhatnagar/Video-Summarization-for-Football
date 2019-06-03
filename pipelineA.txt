@@ -1,0 +1,4 @@
+cd ocr
+python vid2img.py
+python ocr.py
+cd ..
