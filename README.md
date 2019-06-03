@@ -1,5 +1,5 @@
 # Video-Summarization-for-Football
-Undergrad Major Project. Video to Video summary of full length football match.
+Undergrad Major Project. Video to video summary of full length Football match.
 
 # Introduction
 Due to increase in popularity of Video Streaming websites like Youtube, the number of videos
@@ -13,11 +13,11 @@ mixed approach using Sound Analysis, Transfer Learning and Optical Character Rec
 taken to tackle this problem
 
 # Dataset
-Soccernet by Silvio Giancola (https://github.com/SilvioGiancola/SoccerNet-code)
+Soccernet by Silvio Giancola (https://github.com/SilvioGiancola/SoccerNet-code).
 This is a labelled collection of football matches in High Quality which we have used with slight cleaning and modification to suit our needs. We were able to find good, high quality data for this project thanks to this dataset.
 
 # System Architecture
-
+![Screenshot](sysarc.PNG)
 
 # Components
 ## OCR Module 
@@ -31,9 +31,28 @@ A threshold has been decided based on trial and error and all the frames for whi
 ## Object Detection Module
 This is the core part of the project. We have created a custom object detector for the task at hand i.e. detection of a yellow card held by a referee. Transfer Learning has been employed to solve this problem. We have used Inception V2 Coco Model as the pre trained Tensorflow Model. It was further trained by us on 1000 images of yellow cards which we extracted from the dataset.
 
-# Result Screenshots
-![Screenshot](Screenshots/sc1.png
+# Result Images
+![Screenshot](Screenshots/sc1.png)
 ![Screenshot](Screenshots/sc2.png)
 ![Screenshot](Screenshots/sc3.png)
 ![Screenshot](Screenshots/sc4.png)
 ![Screenshot](Screenshots/sc5.png)
+
+# Result Video
+Willing to share the video but it can't be uploaded due to content copyright issue on Youtube.
+
+# Future
+The following issues can be worked on for improving this project:
+1. Mathematical modelling of the Threshold value in the Audio Module instead of trial and error.
+2. Trying out other models such as Residual Networks in the Object Detection Modules.
+
+I will add other issues with time. The model weights, training data is available and I would be happy to share if someone is interested in collaborating.
+
+# The Team
+The following members had equal contribution in development of this project:
+
+Ravi Raj (https://github.com/ravirocx)
+
+Sneha Mane (https://github.com/sneha02)
+
+Aman Kumar Singh (https://github.com/Prince041)
