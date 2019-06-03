@@ -45,6 +45,7 @@ Willing to share the video but it can't be uploaded due to content copyright iss
 The following issues can be worked on for improving this project:
 1. Mathematical modelling of the Threshold value in the Audio Module instead of trial and error.
 2. Trying out other models such as Residual Networks in the Object Detection Modules.
+3. Package the project into an application which is usable.
 
 I will add other issues with time. The model weights, training data is available and I would be happy to share if someone is interested in collaborating.
 
